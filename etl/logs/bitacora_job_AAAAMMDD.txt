@@ -1,0 +1,113 @@
+2026/11/22 13:37:45 - Spoon - Starting job...
+2026/11/22 13:37:45 - job_carga_dw - Start of job execution
+2026/11/22 13:37:45 - job_carga_dw - Starting entry [TR dim_tiempo]
+2026/11/22 13:37:45 - TR dim_tiempo - Using run configuration [Pentaho local]
+2026/11/22 13:37:45 - tr_dim_tiempo - Dispatching started for transformation [tr_dim_tiempo]
+2026/11/22 13:37:45 - TI calendario.0 - Finished reading query, closing connection
+2026/11/22 13:37:45 - TI calendario.0 - Finished processing (I=365, O=0, R=0, W=365, U=0, E=0)
+2026/11/22 13:37:45 - Insert / update.0 - Finished processing (I=365, O=0, R=365, W=365, U=0, E=0)
+2026/11/22 13:37:45 - job_carga_dw - Starting entry [TR dim_canal]
+2026/11/22 13:37:45 - TR dim_canal - Using run configuration [Pentaho local]
+2026/11/22 13:37:45 - tr_dim_canal - Dispatching started for transformation [tr_dim_canal]
+2026/11/22 13:37:45 - EI tienda.0 - Finished processing (I=10, O=0, R=0, W=10, U=0, E=0)
+2026/11/22 13:37:45 - SO limpiar.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - Sort canal.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - UR canal unico.0 - Finished processing (I=0, O=0, R=10, W=3, U=0, E=0)
+2026/11/22 13:37:45 - SV canal.0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2026/11/22 13:37:45 - IU dim_canal.0 - Finished processing (I=3, O=0, R=3, W=3, U=0, E=0)
+2026/11/22 13:37:45 - job_carga_dw - Starting entry [TR dim_ubicacion]
+2026/11/22 13:37:45 - TR dim_ubicacion - Using run configuration [Pentaho local]
+2026/11/22 13:37:45 - tr_dim_ubicacion - Dispatching started for transformation [tr_dim_ubicacion]
+2026/11/22 13:37:45 - CSV ref tienda canton.0 - Header row skipped in file 'file:///C:/Users/PERSONAL/Documents/AA%20TEC/Año%202026/II%20Semestre%202026/Inteligencia%20de%20negocios/Proyecto%202/etl/data/ref_tienda_canton.csv'
+2026/11/22 13:37:45 - CSV ref tienda canton.0 - Finished processing (I=11, O=0, R=0, W=10, U=0, E=0)
+2026/11/22 13:37:45 - EI tienda.0 - Finished processing (I=10, O=0, R=0, W=10, U=0, E=0)
+2026/11/22 13:37:45 - SO limpiar.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - SL canton.0 - Finished processing (I=0, O=0, R=20, W=10, U=0, E=0)
+2026/11/22 13:37:45 - AC pais.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - Sort ubicacion.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - UR ubicacion.0 - Finished processing (I=0, O=0, R=10, W=8, U=0, E=0)
+2026/11/22 13:37:45 - SV ubicacion.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2026/11/22 13:37:45 - IU dim_ubicacion.0 - Finished processing (I=8, O=0, R=8, W=8, U=0, E=0)
+2026/11/22 13:37:45 - job_carga_dw - Starting entry [TR dim_tienda]
+2026/11/22 13:37:45 - TR dim_tienda - Using run configuration [Pentaho local]
+2026/11/22 13:37:45 - tr_dim_tienda - Dispatching started for transformation [tr_dim_tienda]
+2026/11/22 13:37:45 - JS cadena.0 - Optimization level set to 9.
+2026/11/22 13:37:45 - EI tienda.0 - Finished processing (I=10, O=0, R=0, W=10, U=0, E=0)
+2026/11/22 13:37:45 - SV renombrar.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - SO limpiar.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - JS cadena.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - IU dim_tienda.0 - Finished processing (I=10, O=0, R=10, W=10, U=0, E=0)
+2026/11/22 13:37:45 - job_carga_dw - Starting entry [TR dim_publico_meta]
+2026/11/22 13:37:45 - TR dim_publico_meta - Using run configuration [Pentaho local]
+2026/11/22 13:37:45 - tr_dim_publico_meta - Dispatching started for transformation [tr_dim_publico_meta]
+2026/11/22 13:37:45 - EI publico meta.0 - Finished processing (I=150, O=0, R=0, W=150, U=0, E=0)
+2026/11/22 13:37:45 - SO limpiar.0 - Finished processing (I=0, O=0, R=150, W=150, U=0, E=0)
+2026/11/22 13:37:45 - Sort id.0 - Finished processing (I=0, O=0, R=150, W=150, U=0, E=0)
+2026/11/22 13:37:45 - UR id unico.0 - Finished processing (I=0, O=0, R=150, W=150, U=0, E=0)
+2026/11/22 13:37:46 - IU dim_publico_meta.0 - Finished processing (I=150, O=0, R=150, W=150, U=0, E=0)
+2026/11/22 13:37:46 - job_carga_dw - Starting entry [TR dim_producto]
+2026/11/22 13:37:46 - TR dim_producto - Using run configuration [Pentaho local]
+2026/11/22 13:37:46 - tr_dim_producto - Dispatching started for transformation [tr_dim_producto]
+2026/11/22 13:37:46 - TO dim_producto.0 - Connected to database [conn_dw_grandpa_panda] (commit=1000)
+2026/11/22 13:37:46 - EI productos.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2026/11/22 13:37:46 - SV renombrar.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2026/11/22 13:37:46 - SO limpiar.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2026/11/22 13:37:46 - AC vigencia.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2026/11/22 13:37:46 - DL version vigente.0 - Finished processing (I=8, O=0, R=8, W=8, U=0, E=0)
+2026/11/22 13:37:46 - FR nuevo o cambio.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2026/11/22 13:37:46 - Dummy sin cambios.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2026/11/22 13:37:46 - job_carga_dw - Starting entry [SQL truncate fact_ventas]
+2026/11/22 13:37:46 - job_carga_dw - Starting entry [TR fact_ventas]
+2026/11/22 13:37:46 - TR fact_ventas - Using run configuration [Pentaho local]
+2026/11/22 13:37:46 - tr_fact_ventas - Dispatching started for transformation [tr_fact_ventas]
+2026/11/22 13:37:46 - TO fact_ventas.0 - Connected to database [conn_dw_grandpa_panda] (commit=1000)
+2026/11/22 13:37:46 - CSV ref tienda canton.0 - Header row skipped in file 'file:///C:/Users/PERSONAL/Documents/AA%20TEC/Año%202026/II%20Semestre%202026/Inteligencia%20de%20negocios/Proyecto%202/etl/data/ref_tienda_canton.csv'
+2026/11/22 13:37:46 - CSV ref tienda canton.0 - Finished processing (I=11, O=0, R=0, W=10, U=0, E=0)
+2026/11/22 13:37:46 - EI ventas.0 - Finished processing (I=180, O=0, R=0, W=180, U=0, E=0)
+2026/11/22 13:37:46 - SV tipos.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - SO limpiar.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - Sort id.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - UR dedup.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - AC redondeo.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - CALC montos.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - FR calidad.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - SL canton.0 - Finished processing (I=0, O=0, R=190, W=180, U=0, E=0)
+2026/11/22 13:37:46 - DL tiempo.0 - Finished processing (I=180, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - DL producto vigente.0 - Finished processing (I=180, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - DL tienda.0 - Finished processing (I=10, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - DL ubicacion.0 - Finished processing (I=8, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - DL canal.0 - Finished processing (I=3, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - DL publico meta.0 - Finished processing (I=90, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - CALC costo y margen.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - FR integridad.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - SV final.0 - Finished processing (I=0, O=0, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - TO fact_ventas.0 - Finished processing (I=0, O=180, R=180, W=180, U=0, E=0)
+2026/11/22 13:37:46 - job_carga_dw - Starting entry [TR validacion_totales]
+2026/11/22 13:37:46 - TR validacion_totales - Using run configuration [Pentaho local]
+2026/11/22 13:37:46 - tr_validacion_totales - Dispatching started for transformation [tr_validacion_totales]
+2026/11/22 13:37:46 - TI destino DW.0 - Finished reading query, closing connection
+2026/11/22 13:37:46 - TI destino DW.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2026/11/22 13:37:47 - EI ventas origen.0 - Finished processing (I=180, O=0, R=0, W=180, U=0, E=0)
+2026/11/22 13:37:47 - GB origen.0 - Finished processing (I=0, O=0, R=180, W=1, U=0, E=0)
+2026/11/22 13:37:47 - JR unir.0 - Finished processing (I=0, O=0, R=2, W=1, U=0, E=0)
+2026/11/22 13:37:47 - GSI fecha control.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/22 13:37:47 - AC tolerancia.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/22 13:37:47 - CALC diferencias.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/22 13:37:47 - FR control.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/22 13:37:47 - AC resultado OK.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/22 13:37:47 - TFO control_totales.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2026/11/22 13:37:47 - FR hay fallas.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/22 13:37:47 - Dummy control ok.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/22 13:37:47 - job_carga_dw - Starting entry [Success]
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [Success] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [TR validacion_totales] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [TR fact_ventas] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [SQL truncate fact_ventas] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [TR dim_producto] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [TR dim_publico_meta] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [TR dim_tienda] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [TR dim_ubicacion] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [TR dim_canal] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Finished job entry [TR dim_tiempo] (result=[true])
+2026/11/22 13:37:47 - job_carga_dw - Job execution finished
+2026/11/22 13:37:47 - Spoon - Job has ended.
