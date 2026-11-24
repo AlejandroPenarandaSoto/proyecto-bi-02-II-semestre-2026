@@ -15,10 +15,10 @@ El proyecto se enfoca en ventas y mercadeo, como pidió don Esteban en la reuni�
 
 ## Preguntas de negocio
 
-1. ¿En qué provincias, zonas o tiendas se registran mayores y menores ventas?
-2. ¿Cómo varían las ventas entre Walmart y Más x Menos?
-3. ¿Cómo han evolucionado las ventas durante los periodos disponibles y qué tendencias se ven?
-4. ¿Qué oportunidades comerciales aparecen al relacionar las ventas por ubicación con el público meta?
+1. ¿En qué provincias, zonas o tiendas se registran mayores y menores ventas de Grandpa Panda?
+2. ¿Cómo varían las ventas entre las distintas cadenas y canales de venta?
+3. ¿Cómo han evolucionado las ventas durante los periodos disponibles y qué tendencias pueden identificarse?
+4. ¿Qué oportunidades comerciales pueden identificarse al relacionar las ventas por ubicación con el público meta?
 5. ¿Los descuentos aumentan las unidades vendidas lo suficiente para compensar el margen que se pierde? Esta pregunta surgió como hallazgo exploratorio durante el análisis.
 
 ## Sobre los datos
@@ -151,4 +151,4 @@ Quedan en `etl/logs/`.
 | Jueves 19 de noviembre | Don Esteban envía la carta firmada por correo. Inicia el sprint 2 |
 | Viernes 20 de noviembre | El equipo le reenvía la carta al profesor |
 | Domingo 22 de noviembre | Inicia el sprint 3 |
-| Martes 24 de noviembre | Entrega final a las 5 p. m. |
+| Martes 24 de noviembre | Entrega final a las 5 p. m., fecha aplazada por el profesor desde el 17 de noviembre |
